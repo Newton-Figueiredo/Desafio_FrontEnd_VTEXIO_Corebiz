@@ -1,0 +1,81 @@
+{
+    // Layout de Header - Versao Mobile
+
+    "header-layout.mobile": {
+        "children": [
+          "sticky-layout#mobile",
+          "search-bar#mobile"]
+      },
+
+      "sticky-layout#mobile": {
+        "children": ["flex-layout.row#mobile"]
+      },
+
+      "flex-layout.row#mobile": {
+        "children": [
+            "drawer",
+            "logo#mobile",
+            "minicart.v2"
+        ],
+        "props": {
+          "blockClass": "main-header-mobile",
+          "preventHorizontalStretch": true,
+          /* "preserveLayoutOnMobile": true, */
+          "fullWidth": true
+        }
+      },
+      "drawer": {
+        "children": []
+      },
+
+      "logo#mobile": {
+        "props": {
+            "blockClass": "logoMobile",
+            "title": "Corebiz Store",
+            "href": "https://newtonteste1--corebizio.myvtex.com/",
+            "url": "https://i.imgur.com/cKkG9nA.png",
+            "width": 99,
+            "height":23
+        }
+      },
+
+      "flex-layout.col#headerMobile1":{
+        "props": {
+            "blockClass":"headerColMobile1",
+            "horizontalAlign":"center",
+            "width":"grow"
+        },
+        "children": [
+            "flex-layout.row#headerMobile1"
+          ]
+      },
+
+      "flex-layout.row#headerMobile1":{
+        "props": {
+            "blockClass":"headerRowMobile2",
+            "horizontalAlign":"center"
+        },
+        "children": [
+            "drawer",
+            "logo#mobile",
+            "minicart.v2"
+          ]
+      },
+      "flex-layout.row#headerMobile2":{
+        "props": {
+            "blockClass":"headerRowMobile2",
+            "horizontalAlign":"center"
+        },
+        "children": [
+            "search-bar#mobile"
+          ]
+      },
+
+      "search-bar#mobile":{
+        "props": {
+            "maxWidth":"100%",
+            "blockClass":"mobile"
+        }
+      }
+
+}

@@ -1,0 +1,60 @@
+{
+    "newsletter-form#home": {
+        "children": [
+            "flex-layout.row#newsLetterText",
+            "flex-layout.row#newsLetter"
+        ]
+      },
+
+      "flex-layout.row#newsLetter":{
+        "props": {
+            "blockClass":"newsLetter",
+            "horizontalAlign":"center"
+        },
+        "children": [
+            "newsletter-input-email",
+            "newsletter-input-name",
+            "newsletter-submit"
+          ]
+      },
+
+
+      "flex-layout.row#newsLetter2":{
+        "props": {
+            "blockClass":"newsLetter2",
+            "horizontalAlign":"center"
+        },
+        "children": [
+            "flex-layout.col#newsLetter2"
+          ]
+      },
+
+      "flex-layout.col#newsLetter2":{
+        "props": {
+            "blockClass":"newsLetter2",
+            "horizontalAlign":"center"
+        },
+        "children": [
+            "flex-layout.row#newsLetterText",
+            "newsletter-form#teste"
+          ]
+      },
+
+      "newsletter-form#teste": {
+        "children": [
+          "newsletter-input-email",
+          "newsletter-input-name",
+          "newsletter-submit"
+        ]
+      },
+
+      "newsletter-submit": {
+        "props":{
+          "submitButtonLabel":"Eu quero!",
+          "blockClass":"teste"
+
+        }
+      }
+
+
+}

@@ -1,0 +1,23 @@
+.poweredByImage{
+    width: 70px;
+    margin-left: 10px;
+}
+
+.poweredBy{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: black;
+}
+
+.poweredBy--mobile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.footerLayout{
+    width: 100%;
+    padding: 0px;
+}

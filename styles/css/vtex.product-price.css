@@ -1,0 +1,49 @@
+.sellingPriceValue{
+    font-size: 1.7rem !important;
+    font-weight: 700 !important;
+    font-family: Nunito;
+    font-style: normal;
+    line-height: 25px;
+    text-align: center;
+}
+
+.sellingPrice--summaryMobile{
+    font-size: 1.5rem !important;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 22px;
+    text-align: center;
+    color: black;
+}
+
+.listPrice{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px !important;
+    line-height: 15px;
+    text-align: center;
+    text-decoration-line: line-through;
+    color: #7A7A7A !important;
+}
+
+.installments{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: center;
+    color: #7A7A7A;
+}
+
+.price_sellingPriceContainer {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #7A7A7A;
+}

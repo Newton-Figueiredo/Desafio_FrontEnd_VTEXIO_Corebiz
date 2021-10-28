@@ -1,0 +1,51 @@
+.emailInputContainer{
+    width: 280px !important;
+    height: 48px !important;
+    margin-right: 5px;
+}
+
+.nameInputContainer{
+    width: 280px !important;
+    height: 48px !important;
+    margin-right: 5px;
+}
+
+.newsletterForm{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.formSubmitContainer--teste :global(.vtex-button){
+    text-transform: inherit;
+    width: 100%;
+    font-size: 14px;
+}
+
+.newsletterForm--mobile{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+}
+
+.newsletterForm--mobile .emailInputContainer{
+    width: 94% !important;
+    margin: 0px;
+}
+
+.newsletterForm--mobile .nameInputContainer{
+    width: 94% !important;
+    margin: 0px;
+}
+
+.newsletterForm--mobile .formSubmitContainer--teste{
+    width: 94%;
+    margin-bottom: 10px;
+}

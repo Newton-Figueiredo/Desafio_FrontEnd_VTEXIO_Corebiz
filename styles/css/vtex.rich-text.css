@@ -1,0 +1,141 @@
+.paragraph--maisVendidos{
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: 900;
+    font-style: normal;
+    width: 170px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.wrapper--maisVendidos{
+    width: 65px;
+    border-bottom: 4px solid #c0c0c0;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+
+
+
+
+.paragraph--iconFone{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    color: black;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 100%;
+    font-size: 12px;
+}
+
+.paragraph--iconMail{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    color: black;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 100%;
+    font-size: 12px;
+}
+
+.image--iconFone{
+    margin-right: 15px;
+}
+
+.image--iconMail{
+    margin-right: 15px;
+}
+
+
+
+/* Texto: Newsletter */
+
+
+.wrapper--newsLetter{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paragraph--newsLetter{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.2rem;
+    line-height: 22px;
+    color: #333333;
+}
+
+
+
+
+
+/* Texto: Endereço */
+
+.paragraph--adress{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: left;
+    color: #FFFFFF;
+    font-family: Nunito;
+}
+
+.wrapper--adress{
+    background-color: black;
+    width: 90%;
+    margin-bottom: 10px;
+}
+
+.container--adress{
+    background-color: black;
+}
+
+.link--adress{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: left;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+/* Texto: Localizaçao */
+
+.container--location{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+}
+
+.wrapper--location{
+    width: 45px;
+    border-bottom: 5px solid #FFFFFF;
+    background-color: black;
+    margin-top: 20px;
+    margin-left: 17px;
+    margin-bottom: 5px;
+}
+
+.paragraph--location{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}

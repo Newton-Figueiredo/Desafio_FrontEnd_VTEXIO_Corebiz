@@ -1,0 +1,93 @@
+{
+    
+    "flex-layout.row#maisVendidos": {
+        "children": ["rich-text#maisVendidos"]
+      },
+    "rich-text#maisVendidos": { 
+        "props": { 
+          "text": "Mais Vendidos",
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT",
+          "font": "t-body",
+          "blockClass":"maisVendidos"
+        }
+      },
+
+      "flex-layout.row#newsLetterText": {
+        "children": ["rich-text#newsLetterText"],
+        "props":{
+          "blockClass":"newsLetter"
+        }
+      },
+    "rich-text#newsLetterText": { 
+        "props": { 
+          "text": "Participe de nossas news com promoções e novidades!",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "font": "t-body",
+          "blockClass":"newsLetter"
+        }
+      },
+
+      "flex-layout.row#location": {
+        "children": ["rich-text#location"],
+        "props":{
+          "blockClass":"location"
+        }
+      },
+    "rich-text#location": { 
+        "props": { 
+          "text": "Localização",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "font": "t-body",
+          "blockClass":"location"
+        }
+      },
+      "flex-layout.row#adress": {
+        "children": ["rich-text#adress"],
+        "props":{
+          "blockClass":"adress"
+        }
+      },
+    "rich-text#adress": { 
+        "props": { 
+          "text": "Avenida Andrômeda, 2000. Bloco 6 e 8 \nAlphavile SP \nbrasil@corebiz.ag \n+55 11 3090-1039",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "font": "t-body",
+          "blockClass":"adress"
+        }
+      },
+
+      "rich-text#iconEmail": { 
+        "props": { 
+          "text": "![](assets/iconMail.png) Entre em contato",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "font": "t-body",
+          "blockClass":"iconMail"
+        }
+      },
+
+      "rich-text#iconFone": { 
+        "props": { 
+          "text": "![](assets/IconFone.png) Fale com nosso \n consultor online",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "font": "t-body",
+          "blockClass":"iconFone"
+        }
+      },
+
+      "rich-text#quero": { 
+        "props": { 
+          "text": "Eu quero!",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "font": "t-body",
+          "blockClass":"quero"
+        }
+      }
+
+}

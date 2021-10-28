@@ -1,0 +1,44 @@
+
+  {
+    
+    "link#contact": {
+        "children": ["rich-text#iconEmail"],
+        "props": {
+          "blockClass": ["footerLink","footerLink01"],
+          "href": "/",
+          "label": "",
+          "displayMode": "button"
+        }
+      },
+
+    "link#consultant": {
+        "children": ["rich-text#iconFone"],
+        "props": {
+          "blockClass": ["footerLink","footerLink02"],
+          "href": "/",
+          "label": "",
+          "displayMode": "button"
+            }
+    },
+
+    "link#contactMobile": {
+      "children": ["rich-text#iconEmail"],
+      "props": {
+        "blockClass": ["footerLinkMobile","footerLink01Mobile"],
+        "href": "/",
+        "label": "",
+        "displayMode": "button"
+      }
+    },
+
+  "link#consultantMobile": {
+      "children": ["rich-text#iconFone"],
+      "props": {
+        "blockClass": ["footerLinkMobile","footerLink02Mobile"],
+        "href": "/",
+        "label": "",
+        "displayMode": "button"
+          }
+  }
+
+  }

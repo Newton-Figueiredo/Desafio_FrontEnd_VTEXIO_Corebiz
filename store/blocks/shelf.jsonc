@@ -1,0 +1,100 @@
+{
+    "flex-layout.row#shelf": {
+        "children": ["list-context.product-list#demo1"]
+      },
+      "list-context.product-list#demo1": {
+        "blocks": ["product-summary.shelf#home"],
+        "children": ["slider-layout#demo-products"],
+        "props": {
+          "orderBy": "OrderByTopSaleDESC"
+        }
+      },
+      "slider-layout#demo-products": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 5,
+            "tablet": 3,
+            "phone": 1
+          },
+          "infinite": true,
+          "fullWidth": false,
+          "blockClass": "shelf"
+          
+        }
+      },
+      "flex-layout.col#cardText":{
+        "props": {
+            "blockClass":"cardText",
+            "horizontalAlign":"center"
+        },
+        "children": [
+         
+          "product-summary-name",
+          "product-rating-inline",
+          /* "product-summary-description", */
+          /* "product-summary-brand", */
+          /* "product-summary-price", */
+          "product-list-price",
+          "product-selling-price#summaryDesktop",
+          "product-installments#summaryDesktop",
+          
+          /* "product-summary-sku-selector", */
+          /* "product-summary-buy-button" , */
+          "add-to-cart-button#desktop"
+          ]
+      },
+
+
+
+      "product-summary.shelf#home": {
+        "props":{
+          "blockClass": "shelf"
+        },
+        "children": [
+          "product-summary-image#desktop",
+          "flex-layout.col#cardText"
+        ]
+      },
+      "product-summary-image#desktop": {
+        "props": {
+          "showBadge": true,
+          "width":272
+
+        }
+      },
+
+      "product-selling-price#summaryDesktop": {
+        "props": {
+          "markers": [
+            "highlight"
+          ],
+          "blockClass": "summary",
+          "message": "Por: {sellingPriceValue}"
+        }
+      },
+
+      "product-installments#summaryDesktop": {
+        "props": {
+          "installmentsCriteria":"",
+          "installmentOptionsFilter":""
+        }
+      },
+
+      "rich-text#teste": { 
+        "props": { 
+          "text": "VTEX Store Framework teste",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER"
+          
+        }
+      },
+      
+         "add-to-cart-button#desktop": {
+          "props": {
+            "isOneClickBuy": false,
+            "text":"COMPRAR",
+            "blockClass": "cart-button"
+          }
+        }
+      
+}

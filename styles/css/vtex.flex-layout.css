@@ -1,0 +1,135 @@
+.flexRowContent{
+    background-color: #FFFFFF;
+}
+
+.flexCol--logo-desktop{
+    margin-right: 100px;
+}
+
+
+.flexRow--newsLetter{
+    background-color: #F2F2F2;
+}
+
+.flexCol--newsLetter2{
+    background-color: #f2f2f2;
+    margin-bottom: 10px;
+}
+
+.flexRow--newsLetter2{
+    background-color: #f2f2f2;
+    
+}
+
+
+
+.flexRowContent--newsLetter{
+    background-color: #F2F2F2;
+}
+
+.flexRowContent--newsLetter{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.flexCol--divFooter01{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: black;
+    
+}
+
+.flexRow--footer-desktop{
+    background-color: black;
+    height: 100%;
+}
+
+.flexRow--powered{
+    background-color: black;
+}
+
+.flexRowContent--footer-desktop{
+    background-color: black;
+
+}
+
+
+.flexRow--powered .stretchChildrenWidth{
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.flexColChild--divFooter02{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.flexRow--powered{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+
+
+.flexRow--poweredByCorebiz{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    width: 100px !important;
+}
+
+.flexCol--cardText{
+    display: flex;
+    align-items: center;
+}
+
+
+
+.flexRowContent--main-header-mobile{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FFFFFF !important;
+}
+
+
+
+.flexRow--headerColMobile1 {
+    width: 100% !important;
+} 
+
+.flexColChild--cardTextMobile{
+    margin-bottom: 10px;
+}
+
+.flexRowContent--divFooterMobile01{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: black;
+    width: 100%;
+}
+
+/* Powered Mobile */
+
+.flexRowContent--poweredMobile{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    background-color: black;
+}
+

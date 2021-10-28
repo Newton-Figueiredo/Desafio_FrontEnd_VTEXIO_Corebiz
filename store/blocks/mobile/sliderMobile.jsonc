@@ -1,0 +1,78 @@
+{
+  "slider-layout#carouselMobile": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "never",
+      "fullWidth":true,
+      "blockClass": "carousel"
+    },
+    "children": [
+        "info-card#info-card-m01",
+        "info-card#info-card-m02",
+        "info-card#info-card-m03",
+        "info-card#info-card-m04"
+    ]
+  },
+
+  "info-card#info-card-m01": {
+    "props": {
+      "blockClass":"info-card-mobile",
+      "id": "info-card-mobile",
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "imageUrl": "https://cdn.pixabay.com/photo/2021/04/07/05/56/woman-6158134_960_720.jpg",
+      "headline": "Olá, o que você está buscando?",
+      "subhead": "Criar ou migrar seu e-commerce?",
+      "callToActionMode":"none",
+      "textAlignment": "center"
+    }
+  },
+
+  "info-card#info-card-m02": {
+    "props": {
+      "blockClass":"info-card-mobile",
+      "id": "info-card-m02",
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "imageUrl": "https://cdn.pixabay.com/photo/2021/10/07/15/24/fruits-6688947_960_720.jpg",
+      "headline": "Olá, o que você está buscando?",
+      "subhead": "Criar ou migrar seu e-commerce?",
+      "callToActionMode":"none",
+      "textAlignment": "center"
+        }
+    },
+
+
+    "info-card#info-card-m03": {
+        "props": {
+          "blockClass":"info-card-mobile",
+          "id": "info-card-m03",
+          "isFullModeStyle": true,
+          "textPosition": "center",
+          "imageUrl": "https://cdn.pixabay.com/photo/2021/10/15/22/59/heron-6713611_960_720.jpg",
+          "headline": "Olá, o que você está buscando?",
+          "subhead": "Criar ou migrar seu e-commerce?",
+          "callToActionMode":"none",
+          "textAlignment": "center"
+        }
+    },
+
+  "info-card#info-card-m04": {
+    "props": {
+      "blockClass":"info-card-mobile",
+      "id": "info-card-m04",
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "imageUrl": "https://cdn.pixabay.com/photo/2020/04/26/09/07/bird-5094334_960_720.jpg",
+      "headline": "Olá, o que você está buscando?",
+      "subhead": "Criar ou migrar seu e-commerce?",
+      "callToActionMode":"none",
+      "textAlignment": "center"
+        }
+    }
+}

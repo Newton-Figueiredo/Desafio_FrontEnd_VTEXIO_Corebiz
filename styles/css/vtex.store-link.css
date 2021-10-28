@@ -1,0 +1,91 @@
+.buttonLink--footerLink{
+    background: white;
+    width: 195px;
+    height: 38px;
+    
+}
+
+.buttonLink--footerLink:hover{
+    background: whitesmoke;
+    width: 195px;
+    height: 38px;
+    
+}
+.buttonLink--footerLink:focus{
+    background: whitesmoke;
+    width: 195px;
+    height: 38px;
+    
+}
+
+.label--footerLink{
+    color: black;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 100%;
+    font-size: 12px;
+}
+
+.buttonLink--footerLink01{
+    position: relative;
+    top: 12px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    border-radius: 7px;
+}
+
+.buttonLink--footerLink02{
+    position: relative;
+    bottom: 12px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    border-radius: 7px;
+}
+
+
+
+/* Links Versao Mobile */
+
+.buttonLink--footerLinkMobile{
+    background: white;
+    width: 195px;
+    height: 38px;
+    
+    
+}
+
+
+.buttonLink--footerLink01Mobile{
+  
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    border-radius: 7px;
+    margin-bottom: 22px;
+}
+
+.buttonLink--footerLink02Mobile{
+   
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    border-radius: 7px;
+    margin-bottom: 10px;
+}
+
+.buttonLink--footerLinkMobile:hover{
+    background: whitesmoke;
+    
+    
+}
+.buttonLink--footerLinkMobile:focus{
+    background: whitesmoke;
+
+}

@@ -1,0 +1,47 @@
+{
+    "flex-layout.row#poweredMobile":{
+        "props": {
+            "blockClass":"poweredMobile",
+            "horizontalAlign":"left"
+        },
+        "children": [
+          "flex-layout.row#poweredByCorebizMobile",
+          "flex-layout.row#poweredByVtexMobile"
+          ]
+      },
+
+      "flex-layout.row#poweredByCorebizMobile":{
+        "props": {
+            "blockClass":"poweredByCorebiz",
+            "horizontalAlign":"center"
+        },
+        "children": [
+            "image#poweredByCorebizMobile"
+          ]
+      },
+
+      "flex-layout.row#poweredByVtexMobile":{
+        "props": {
+            "blockClass":"poweredByVtex",
+            "horizontalAlign":"center"
+        },
+        "children": [
+            "powered-by#mobile"
+          ]
+      },
+
+      "powered-by#mobile":{
+        "props":{
+          "showInColor":false,
+          "blockClass":"mobile"
+        }
+      },
+
+      "image#poweredByCorebizMobile": {
+        "props": {
+          "blockClass":"poweredByCorebiz",
+          "src": "assets/corebiz-removebg-preview.png",
+          "maxHeight": 52
+        }
+      }
+}

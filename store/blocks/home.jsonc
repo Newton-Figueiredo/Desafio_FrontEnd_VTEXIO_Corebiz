@@ -1,15 +1,94 @@
 {
   "store.home": { 
     "blocks": [
-      "rich-text"
+      "responsive-layout.desktop",
+      "responsive-layout.mobile"
     ]
   },
-  "rich-text": { 
-    "props": { 
-      "text": "VTEX Store Framework",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "font": "t-heading-1"
+
+  "responsive-layout.desktop": {
+    "children": [
+      "slider-layout#carousel",
+      "flex-layout.row#maisVendidos",
+      "flex-layout.row#shelf",
+      "flex-layout.row#newsLetter2"]
+  },
+  "responsive-layout.mobile": {
+    "children": [
+      "slider-layout#carouselMobile",
+      "flex-layout.row#maisVendidos",
+      "flex-layout.row#shelfMobile",
+      "newsletter-form#mobile"
+    ]
+  },
+
+
+  "slider-layout#carousel": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "never",
+      "fullWidth":true,
+      "blockClass": "carousel"
+    },
+    "children": ["info-card#1","info-card#2","info-card#3","info-card#4"]
+  },
+
+  "info-card#1": {
+    "props": {
+      "blockClass":"info-card-bloco01",
+      "id": "info-card-bloco01",
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "imageUrl": "assets/p01.jpg",
+      "headline": "Olá, o que você está buscando?",
+      "subhead": "Criar ou migrar seu e-commerce?",
+      "callToActionMode":"none",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#2": {
+    "props": {
+      "blockClass": "info-card-bloco02",
+      "id": "info-card-bloco02",
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "imageUrl": "assets/p02.jpg",
+      "headline": "Olá, o que você está buscando?",
+      "subhead": "Criar ou migrar seu e-commerce?",
+      "callToActionMode":"none",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#3": {
+    "props": {
+      "blockClass":"info-card-bloco03",
+      "id": "info-card-bloco03",
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "imageUrl": "assets/p03.jpg",
+      "headline": "Olá, o que você está buscando?",
+      "subhead": "Criar ou migrar seu  e-commerce?",
+      "callToActionMode":"none",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#4": {
+    "props": {
+      "blockClass":"info-card-bloco04",
+      "id": "info-card-bloco04",
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "imageUrl": "assets/p04.jpg",
+      "headline": "Olá, o que você está buscando?",
+      "subhead": "Criar ou migrar seu e-commerce?",
+      "callToActionMode":"none",
+      "textAlignment": "center"
     }
   }
+ 
 }

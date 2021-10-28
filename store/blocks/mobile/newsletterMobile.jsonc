@@ -1,0 +1,34 @@
+{
+    "newsletter-form#mobile": {
+        "props":{
+            "blockClass":"mobile"
+        },
+        "children": [
+            "flex-layout.row#newsLetterText",
+            "newsletter-input-email",
+            "newsletter-input-name",
+            "newsletter-submit"
+        ]
+      },
+
+    /*   "flex-layout.col#newsLetterMobile":{
+        "props": {
+            "blockClass":"newsLetterMobile",
+            "horizontalAlign":"center"
+        },
+        "children": [
+            "flex-layout.row#newsLetterText",
+            "newsletter-form#teste"
+          ]
+      },
+ */
+      "newsletter-submit#newsLetterMobile": {
+        "props":{
+          "submitButtonLabel":"Eu quero!",
+          "blockClass":"newsLetterMobile"
+
+        }
+      }
+
+
+}

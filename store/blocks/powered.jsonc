@@ -1,0 +1,46 @@
+{
+    "flex-layout.row#powered":{
+        "props": {
+            "blockClass":"powered",
+            "horizontalAlign":"center"
+        },
+        "children": [
+          "flex-layout.row#poweredByCorebiz",
+          "flex-layout.row#poweredByVtex"
+          ]
+      },
+
+      "flex-layout.row#poweredByCorebiz":{
+        "props": {
+            "blockClass":"poweredByCorebiz",
+            "horizontalAlign":"center"
+        },
+        "children": [
+            "image#poweredByCorebiz"
+          ]
+      },
+
+      "flex-layout.row#poweredByVtex":{
+        "props": {
+            "blockClass":"poweredByVtex",
+            "horizontalAlign":"center"
+        },
+        "children": [
+            "powered-by"
+          ]
+      },
+
+      "powered-by":{
+        "props":{
+          "showInColor":false
+        }
+      },
+
+      "image#poweredByCorebiz": {
+        "props": {
+          "blockClass":"poweredByCorebiz",
+          "src": "assets/corebiz-removebg-preview.png",
+          "maxHeight": 52
+        }
+      }
+}

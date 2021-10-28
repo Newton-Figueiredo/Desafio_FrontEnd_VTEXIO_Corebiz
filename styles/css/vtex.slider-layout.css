@@ -1,0 +1,9 @@
+.sliderLayoutContainer--carousel {
+    background-color: #fff !important; 
+    
+}
+
+.sliderTrackContainer--carousel {
+    max-width: none !important;
+}
+

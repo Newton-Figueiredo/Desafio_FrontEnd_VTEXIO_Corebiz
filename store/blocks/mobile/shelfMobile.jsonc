@@ -1,0 +1,91 @@
+{
+    "flex-layout.row#shelfMobile": {
+        "children": ["list-context.product-list#mobile"]
+      },
+      "list-context.product-list#mobile": {
+        "blocks": ["product-summary.shelf#mobile"],
+        "children": ["slider-layout#mobile"],
+        "props": {
+          "orderBy": "OrderByTopSaleDESC"
+        }
+      },
+      "slider-layout#mobile": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 5,
+            "tablet": 3,
+            "phone": 1
+          },
+          "infinite": true,
+          "fullWidth": false,
+          "blockClass": "shelfMobile"
+          
+        }
+      },
+      "flex-layout.col#cardTextMobile":{
+        "props": {
+            "blockClass":"cardTextMobile",
+            "horizontalAlign":"center"
+        },
+        "children": [
+         
+          "product-summary-name",
+          "product-rating-inline",
+          /* "product-summary-description", */
+          /* "product-summary-brand", */
+          /* "product-summary-price", */
+          "product-list-price",
+          "product-selling-price#summary",
+          "product-installments#summary",
+          
+          /* "product-summary-sku-selector", */
+          /* "product-summary-buy-button" , */
+          "add-to-cart-button"
+          ]
+      },
+
+
+
+      "product-summary.shelf#mobile": {
+        "props":{
+          "blockClass": "shelfMobile"
+        },
+        "children": [
+          "product-summary-image",
+          "flex-layout.col#cardTextMobile"
+        ]
+      },
+      "product-summary-image": {
+        "props": {
+          "showBadge": true,
+          "width":270
+
+        }
+      },
+
+      "product-selling-price#summary": {
+        "props": {
+          "markers": [
+            "highlight"
+          ],
+          "blockClass": "summaryMobile",
+          "message": "Por: {sellingPriceValue}"
+        }
+      },
+
+      "product-installments#summary": {
+        "props": {
+          "installmentsCriteria":"",
+          "installmentOptionsFilter":""
+        }
+      },
+      
+         "add-to-cart-button": {
+          "props": {
+            "isOneClickBuy": false,
+            "text":"COMPRAR",
+            "blockClass": "cart-buttonMobile"
+          }
+        }
+      
+}

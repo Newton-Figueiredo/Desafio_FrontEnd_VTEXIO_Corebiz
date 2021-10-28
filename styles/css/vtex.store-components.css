@@ -1,0 +1,111 @@
+.autoCompleteOuterContainer--desktop :global(.vtex-input-prefix__group){
+    height: 40px;
+    width: 718px;
+    border: none;
+    border-bottom: #7A7A7A solid 1px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 0px;
+}
+
+.autoCompleteOuterContainer--mobile :global(.vtex-input-prefix__group){
+    height: 40px;
+    width: 90%;
+    border: none;
+    border-bottom: #7A7A7A solid 1px;
+    /* margin-left: 10px;
+    margin-right: 10px; */
+    border-radius: 0px;
+    padding: 0px;
+}
+
+.searchBarContainer--desktop :global(.vtex-input-prefix__group) {
+    height: 38px;
+    border: none;
+  }
+
+  .searchBarContainer--mobile :global(.vtex-input-prefix__group) {
+    background-color: #ffff;
+    border: none;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+
+  }
+
+  
+  .infoCardContainer{
+    width: 100%;
+    height: 420px;
+    background-color: #ffff;
+      
+}
+.infoCardTextContainer{
+    position: relative;
+    right: 15rem;  
+}
+
+.infoCardTextContainer--info-card-mobile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center; 
+    position: inherit;
+}
+
+.infoCardContainer--info-card-mobile{
+    width: 100%;
+    height: 320px;
+    background-color: #ffff;
+      
+}
+
+.infoCardHeadline{
+    font-size: 30px;
+    line-height: 41px;
+    color: #ffff;
+    font-weight: 700;
+}
+
+.infoCardSubhead{
+    font-size: 45px;
+    line-height: 45px;
+    color: #ffff;
+    font-weight: 900;
+    width: 480px;
+}
+
+.infoCardHeadline--info-card-mobile{
+    font-size: 1.2rem;
+    line-height: 20px;
+    color: #ffff;
+    font-weight: 700;
+}
+.infoCardSubhead--info-card-mobile{
+    font-size: 1.7rem;
+    line-height: 30px;
+    color: #ffff;
+    font-weight: 900;
+}
+
+
+.infoCardContainer{
+    width: 100% !important;
+}
+
+.imageElement--poweredByCorebiz{
+    background-color: black;
+}
+
+.autoCompleteOuterContainer--mobile :global(.vtex-input) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.container{
+    padding: 0px;
+}

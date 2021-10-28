@@ -1,15 +1,24 @@
 {
+  // Chamando os Layouts para a Loja.
+
   "header": {
-    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+    "blocks": ["header-layout.desktop", 
+               "header-layout.mobile"]
   },
+
   "header.full": {
-    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+    "blocks": ["header-layout.desktop", 
+               "header-layout.mobile"]
   },
+
+// Layout de Header - Versao Desktop
+
   "header-layout.desktop": {
     "children": [
       "sticky-layout#desktop"
     ]
   },
+
   "sticky-layout#desktop": {
     "props": {
       "blockClass": "sticky-header"
@@ -26,54 +35,40 @@
     },
     "children": [
       "flex-layout.col#logo-desktop",
-      "flex-layout.col#spacer",
-      "search-bar",
-      "locale-switcher",
+      "search-bar#desktop",
       "login",
       "minicart.v2"
     ]
   },
-  "flex-layout.col#spacer": {
-    "props": {
-      "width": "grow"
-    }
-  },
+  
   "flex-layout.col#logo-desktop": {
     "props": {
+      "blockClass":"logo-desktop",
       "verticalAlign": "middle"
     },
     "children": ["logo"]
   },
   "logo": {
     "props": {
-      "title": "Logo",
-      "href": "/",
-      "url": "https://brand.vtex.com/static/media/VTEX_pink_RGB.751a9fb5.svg",
-      "width": "80"
+      "title": "Corebiz Store",
+      "href": "https://newtonteste1--corebizio.myvtex.com/",
+      "url": "https://i.imgur.com/cKkG9nA.png",
+      "width": "170"
     }
   },
-  "header-layout.mobile": {
-    "children": ["sticky-layout#mobile"]
-  },
-  "sticky-layout#mobile": {
-    "children": ["flex-layout.row#mobile"]
-  },
-  "flex-layout.row#mobile": {
-    "children": [
-      "drawer",
-      "logo",
-      "flex-layout.col#spacer",
-      "login",
-      "minicart.v2"
-    ],
+
+  "search-bar#desktop":{
     "props": {
-      "blockClass": "main-header-mobile",
-      "preventHorizontalStretch": true,
-      "preserveLayoutOnMobile": true,
-      "fullWidth": true
+      "maxWidth":718,
+      "blockClass":"desktop"
     }
   },
-  "drawer": {
-    "children": []
+  "login": {
+    "props": {
+      "optionsTitle":"",
+      "iconLabel":"Minha Conta",
+      "showIconProfile":true,
+      "labelClasses":["check"]
+    }
   }
 }

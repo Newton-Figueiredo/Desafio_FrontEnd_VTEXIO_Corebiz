@@ -1,0 +1,47 @@
+{
+  "footer-layout.mobile": {
+    "props":{
+      "blockClass":"mobile"
+    },
+    "children": [
+      "flex-layout.row#divFooterMobile"
+    ]
+  },
+
+  "flex-layout.row#divFooterMobile":{
+    "props": {
+        "blockClass":"divFooterMobile01",
+        "horizontalAlign":"center"
+    },
+    "children": [
+      "flex-layout.col#divFooterMobile01",
+      "flex-layout.col#divFooterMobile02",
+      "flex-layout.row#poweredMobile"
+      ]
+  },
+  
+  "flex-layout.col#divFooterMobile01":{
+    "props": {
+        "blockClass":"divFooterMobile01",
+        "horizontalAlign":"left"
+    },
+    "children": [
+      "flex-layout.row#location",
+      "flex-layout.row#adress"
+      ]
+  },
+
+  "flex-layout.col#divFooterMobile02":{
+    "props": {
+        "blockClass":"divFooterMobile02",
+        "horizontalAlign":"center"
+    },
+    "children": [
+      "link#contactMobile",
+      "link#consultantMobile"
+      ]
+  }
+
+
+
+}
