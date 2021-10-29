@@ -1,4 +1,1 @@
-# Template de loja Padrao - neoneoenoen
-dededed
-dede
-ededede
+# Template de loja Padrao
