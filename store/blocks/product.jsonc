@@ -1,7 +1,13 @@
 {
   "store.product": {
     "children": [
-      
+      "responsive-layout.desktop#product"
     ]
+  },
+
+  "responsive-layout.desktop#product": {
+    "children": [
+      ]
   }
+
 }
