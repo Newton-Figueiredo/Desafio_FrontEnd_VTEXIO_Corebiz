@@ -1,0 +1,21 @@
+.quantitySelectorTitle{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 20px;
+    color:#727272
+}
+
+.quantitySelectorContainer{
+    padding-top: 14px;
+}
+
+.availableQuantityContainer{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 20px;
+    color:#727272
+}
