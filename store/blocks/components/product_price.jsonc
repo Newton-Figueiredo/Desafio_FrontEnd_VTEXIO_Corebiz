@@ -1,0 +1,31 @@
+{
+    "product-list-price#global": {
+        "props": {
+          "markers": [
+            "list-price#global"
+          ],
+          "blockClass": "listGlobal",
+          "message": "De: {listPriceValue}"
+        }
+      },
+
+      "product-selling-price#global": {
+        "props": {
+          "markers": [
+            "selling-price#global"
+          ],
+          "blockClass": "sellingGlobal",
+          "message": "Por: {sellingPriceValue}"
+        }
+      },
+
+      "product-installments#global": {
+        "props": {
+          "markers": [
+            "selling-price#global"
+          ],
+          "blockClass": "sellingGlobal"
+          /* ,"message": "Por: {installmentsTotalValue}" */
+        }
+      }
+}

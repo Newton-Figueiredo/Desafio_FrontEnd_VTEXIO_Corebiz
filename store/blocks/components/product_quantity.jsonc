@@ -1,0 +1,8 @@
+{
+    "product-quantity": {
+        "props": {
+          "warningQuantityThreshold": 9999999,
+          "showUnit": true
+        }
+      }
+}
