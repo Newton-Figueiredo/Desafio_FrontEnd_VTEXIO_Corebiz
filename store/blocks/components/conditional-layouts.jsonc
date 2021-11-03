@@ -1,0 +1,20 @@
+
+{
+
+    "condition-layout.product#productIdTeste": {
+           "props": {
+             "conditions": [
+               {
+                 "subject": "productId",
+                 "arguments": {
+                   "id": "25"
+                 }
+               }
+             ],
+             "Then": "info-card#produto",
+             "Else": "info-card#search"
+           }
+         }
+
+}
+  

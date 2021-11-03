@@ -45,6 +45,7 @@
     "search-result-layout.desktop": {
         "children": [
           "flex-layout.row#searchbread",
+          /* "image#search", */
           "flex-layout.row#searchtitle",
           "flex-layout.row#result"
         ],
@@ -62,8 +63,11 @@
         }
       },
       "flex-layout.row#searchtitle": {
-        "children": ["search-title.v2"]
+        "children": [  
+          "search-title.v2"
+        ]
       },
+
       "flex-layout.row#result": {
         "children": ["flex-layout.col#filter", "flex-layout.col#content"],
         "props": {

@@ -8,6 +8,7 @@
   "responsive-layout.desktop#product": {
     "children": [
       "breadcrumb",
+      "condition-layout.product#productIdTeste",
       "flex-layout.row#productDesktop"
       ]
   }
