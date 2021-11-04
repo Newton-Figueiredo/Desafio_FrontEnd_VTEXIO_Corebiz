@@ -1,0 +1,6 @@
+{
+    "store.custom#sobre": {
+      "blocks": ["info-card#produto"]
+    }
+    
+  }
