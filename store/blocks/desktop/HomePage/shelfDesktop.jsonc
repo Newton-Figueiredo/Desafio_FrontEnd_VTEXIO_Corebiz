@@ -58,7 +58,7 @@
       "product-summary-image#desktop": {
         "props": {
           "showBadge": true,
-          "width":272
+          "width":289
 
         }
       },
