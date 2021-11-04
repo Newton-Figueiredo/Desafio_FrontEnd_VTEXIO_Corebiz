@@ -1,0 +1,16 @@
+{
+    "store.custom#sobre": {
+      "blocks": ["rich-text#testeSobre"]
+      
+    },
+    
+    "rich-text#testeSobre": { 
+      "props": { 
+        "text": "isso é um teste",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "font": "t-body",
+        "blockClass":"teste"
+      }
+    }
+  }

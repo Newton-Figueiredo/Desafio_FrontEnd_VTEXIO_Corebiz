@@ -5,7 +5,7 @@
         "children": ["rich-text#iconEmail"],
         "props": {
           "blockClass": ["footerLink","footerLink01"],
-          "href": "/",
+          "href": "/sobre",
           "label": "",
           "displayMode": "button"
         }
