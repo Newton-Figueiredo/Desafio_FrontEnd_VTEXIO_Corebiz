@@ -1,5 +1,6 @@
 {
     "store.custom#sobre": {
-      "path": "/sobre"
+      "path": "/sobre",
+      "isSitemapEntry": true
     }
   }
